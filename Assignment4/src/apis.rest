@@ -1,0 +1,7 @@
+POST http://localhost:3000/multiply
+Content-Type: application/json
+
+{
+    "num1": 1,
+    "num2": -10000000
+}
