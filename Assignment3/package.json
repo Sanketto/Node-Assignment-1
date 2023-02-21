@@ -1,0 +1,14 @@
+{
+  "name": "assignments",
+  "version": "1.0.0",
+  "description": "Assignments",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sanket G",
+  "license": "UNLICENCED",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
