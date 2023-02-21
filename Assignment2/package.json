@@ -1,0 +1,12 @@
+{
+  "name": "assigment2",
+  "version": "1.0.0",
+  "description": "assignment2",
+  "main": "readCommandLineArguments.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Sanket G",
+  "license": "UNLICENSED"
+}
