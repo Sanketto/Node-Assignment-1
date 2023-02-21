@@ -1,0 +1,34 @@
+get http://localhost:3000/blog?page=3&search=Project8
+//get specific entry
+###
+
+get http://localhost:3000/blog
+// get all entries
+###
+
+POST  http://localhost:3000/blog
+// make entry in db
+Content-Type: application/json
+
+{
+   "topic": "Project10",
+   "description": "full-stack",
+   "posted_at": "Today",
+   "posted_by": "Sanket"
+}
+
+###
+
+put http://localhost:3000/blog/Project
+Content-Type: application/json
+// update existing data by sending topic name 
+{
+   "description": "MERN",
+   "posted_at": "Today",
+   "posted_by": "SanketG"
+}
+
+###
+
+DELETE http://localhost:3000/blog/Project
+// delete specific data mentioned in query param
