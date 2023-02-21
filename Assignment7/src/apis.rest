@@ -1,0 +1,8 @@
+get http://localhost:8080/api/student/7
+
+###
+
+post http://localhost:8080/api/student
+Content-Type: application/x-www-form-urlencoded
+
+name=Gdfg&currClass=12&division=B
