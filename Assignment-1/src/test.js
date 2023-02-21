@@ -1,0 +1,5 @@
+const test = require('./index')
+//test.myFileWriter('test.txt', 'hello')
+ //test.myFileReader('test.txt')
+//test.myFileUpdater('test.txt', 'world')
+ test.myFileDeleter('test.txt')
